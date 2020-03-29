@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alwar.elayavalli.CustomViews.RoundCornerConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="true"
+    android:id="@+id/mainLay"
+    android:padding="@dimen/Padding_whole"
+    app:lay_background_color="@color/white"
+    app:lay_stroke_color="@color/mild_grayColor"
+    app:lay_corner_radius="@dimen/Padding_whole">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/icon"
+        android:padding="2dp"
+        android:layout_marginLeft="@dimen/Padding_whole"
+        android:layout_marginRight="@dimen/Padding_whole"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_home_profile_man"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintRight_toLeftOf="@+id/textInput"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:id="@+id/textInput"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/icon"
+        android:paddingLeft="@dimen/Padding_whole"
+        android:paddingRight="@dimen/Padding_whole"
+        android:paddingBottom="@dimen/Padding_whole"
+        android:background="@android:color/transparent">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:textSize="16sp"
+            android:background="@null" />
+
+    </android.support.design.widget.TextInputLayout>
+
+</com.alwar.elayavalli.CustomViews.RoundCornerConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="Text_size_normal">12sp</dimen>
+    <dimen name="Icon_text">11sp</dimen>
+    <dimen name="Icon_text_min">10sp</dimen>
+    <dimen name="AutoTextViewMinSize">8sp</dimen>
+    <dimen name="Text_size_head_1">14sp</dimen>
+    <dimen name="Text_size_main_head">18sp</dimen>
+
+    <dimen name="ToolBarTextSize">20sp</dimen>
+
+    <dimen name="Large_Text">35sp</dimen>
+
+
+    <dimen name="TabDigitSmallSize">30sp</dimen>
+    <dimen name="TabDigitBigSize">70sp</dimen>
+
+    <dimen name="ballsHeight_outer">80dp</dimen>
+    <dimen name="ballsHeight">60dp</dimen>
+    <dimen name="roundedBallsView">40dp</dimen>
+
+    <dimen name="Ending_margin">20dp</dimen>
+    <dimen name="Layout_margin">10dp</dimen>
+    <dimen name="Ending_margin_plus">40dp</dimen>
+    <dimen name="Margin_double">60dp</dimen>
+    <dimen name="bottom_margin">30dp</dimen>
+
+    <dimen name="bg_image">130dp</dimen>
+    <dimen name="btn_height_size">150dp</dimen>
+    <dimen name="btn_width_size">150dp</dimen>
+
+    <dimen name="Padding_whole">5dp</dimen>
+    <dimen name="nav_drawer_width">260dp</dimen>
+    <dimen name="border_margin">3dp</dimen>
+
+    <dimen name="layout_height">40dp</dimen>
+    <dimen name="spinner_layout_height">40dp</dimen>
+    <dimen name="layout_height_min">35dp</dimen>
+
+    <dimen name="bottom_layout_height">35dp</dimen>
+
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="btn_icon_size">100dp</dimen>
+    <dimen name="btn_size">130dp</dimen>
+
+    <dimen name="WheelItemTextSize">24sp</dimen>
+    <dimen name="WheelItemSpace">12dp</dimen>
+    <dimen name="WheelIndicatorSize">2dp</dimen>
+    <dimen name="WheelMargins">8dp</dimen>
+
+    <dimen name="cricketInputHeight">80dp</dimen>
+
+    <dimen name="SlidingMenuWidth">100dp</dimen>
+    <dimen name="SlidingMenuHeight">150dp</dimen>
+    <dimen name="SlidingMenuImageHeight">110dp</dimen>
+    <dimen name="fbutton_default_conner_radius">8dp</dimen>
+    <dimen name="fbutton_default_shadow_height">4dp</dimen>
+
+    <dimen name="flat_button_height">40dp</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="date_text_size">12sp</dimen>
+
+    <dimen name="round_corner_radius">5dp</dimen>
+    <dimen name="round_corner_padding">10dp</dimen>
+
+    <dimen name="Main_option_icon_size">120dp</dimen>
+    <dimen name="home_icon_size">150dp</dimen>
+
+    <dimen name="Component_margin">10dp</dimen>
+
+
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="roundCornerButton">
+        <attr name="stroke_color" format="color" />
+        <attr name="background_color" format="color" />
+        <attr name="top_left_corner" format="float" />
+        <attr name="top_right_corner" format="float" />
+        <attr name="bottom_left_corner" format="float" />
+        <attr name="bottom_right_corner" format="float" />
+        <attr name="corner_radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundCornerConstraintLayout">
+        <attr name="lay_stroke_color" format="color" />
+        <attr name="lay_background_color" format="color" />
+        <attr name="lay_top_left_corner" format="dimension" />
+        <attr name="lay_top_right_corner" format="dimension" />
+        <attr name="lay_bottom_left_corner" format="dimension" />
+        <attr name="lay_bottom_right_corner" format="dimension" />
+        <attr name="lay_corner_radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundCornerLinearLayout">
+        <attr name="lin_stroke_color" format="color" />
+        <attr name="lin_background_color" format="color" />
+        <attr name="lin_top_left_corner" format="dimension" />
+        <attr name="lin_top_right_corner" format="dimension" />
+        <attr name="lin_bottom_left_corner" format="dimension" />
+        <attr name="lin_bottom_right_corner" format="dimension" />
+        <attr name="lin_corner_radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="HomeRoundedLayout">
+        <attr name="hom_stroke_color" format="color" />
+        <attr name="hom_background_color" format="color" />
+        <attr name="hom_top_left_corner" format="dimension" />
+        <attr name="hom_top_right_corner" format="dimension" />
+        <attr name="hom_bottom_left_corner" format="dimension" />
+        <attr name="hom_bottom_right_corner" format="dimension" />
+        <attr name="hom_corner_radius" format="dimension" />
+        <attr name="hom_icon" format="reference" />
+        <attr name="hom_text" format="reference" />
+        <attr name="hom_layout" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="EmptyStateView">
+        <attr name="esv_stroke_color" format="color" />
+        <attr name="esv_background_color" format="color" />
+        <attr name="esv_textViewColor" format="color" />
+        <attr name="esv_emptyStateImage" format="reference" />
+        <attr name="esv_emptyStateText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomInputView">
+        <attr name="civ_stroke_color" format="integer" />
+        <attr name="civ_background_color" format="color" />
+        <attr name="civ_textViewColor" format="color" />
+        <attr name="civ_textViewHintColor" format="color" />
+        <attr name="civ_default_stroke" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="AutofitTextView">
+        <attr name="minTextSize" format="dimension" />
+        <attr name="precision" format="float" />
+        <attr name="sizeToFit" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="placeholder" format="string" />
+        <attr name="iconId" format="reference" />
+        <attr name="inputType" format="integer" />
+        <attr name="editable" format="boolean" />
+    </declare-styleable>
+
+</resources>

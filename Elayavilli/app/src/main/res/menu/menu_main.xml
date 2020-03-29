@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/add"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        android:visible="false"
+        android:title="@string/string_register"/>
+
+    <item  android:id="@+id/camera"
+        android:title="Camera"
+        android:visible="false"
+        android:icon="@drawable/ic_action_camera"
+        app:showAsAction="always"/>
+
+
+    <item  android:id="@+id/create"
+        android:title="Create"
+        android:visible="false"
+        android:icon="@drawable/ic_action_save"
+        app:showAsAction="always"/>
+
+    <item  android:id="@+id/action_search"
+        android:title="Search"
+        android:visible="false"
+        android:icon="@drawable/ic_action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"/>
+
+</menu>

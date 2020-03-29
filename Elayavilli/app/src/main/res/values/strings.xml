@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name" translatable="false">இளையவல்லி</string>
+
+    <string name="string_pasuram_first" translatable="false">உண்டோ  வைகாசி  விசாகத்திக்கு ஒப்பொருநாள்</string>
+
+    <string name="string_pasuram_second" translatable="false">உண்டோ சடகோபருக்கு ஒப்போருவர் - உண்டோ</string>
+
+    <string name="string_pasuram_third" translatable="false">திருவாய்மொழிக்கு ஒப்பு தென்குருகைக்குண்டோ</string>
+
+    <string name="string_pasuram_four" translatable="false">ஒரு பார் தனில் ஒக்கு மூர்</string>
+
+
+    <string name="string_first" translatable="false">ஸ்ரீ.உ.வே. இளையவல்லி </string>
+    <string name="string_second" translatable="false">ஸ்ரீ ராம் ஸ்வாமி பகவத் விஷயம் </string>
+    <string name="string_second1" translatable="false">சுவாமி திருமாளிகை</string>
+
+    <string name="string_address" translatable="false">எண்.6,உடையவர் சன்னதித்தெரு,இராமானுஞ்ஜ சதுர்வேதி மங்களம்,ஆழ்வார் திருநகரி,தூத்துக்குடி மாவட்டம்.</string>
+
+    <string name="string_third_four" translatable="false">எண்.6,உடையவர் சன்னதித்தெரு,இராமானுஞ்ஜ சதுர்வேதி மங்களம்,</string>
+
+    <string name="string_district" translatable="false">ஆழ்வார் திருநகரி,தூத்துக்குடி மாவட்டம்.</string>
+
+    <string name="string_fir" translatable="false">ஸம்ப்ரதாய ஸு தாநிதி ஸ்ரீ  உ.வே.ஆழ்வார் திருநகரி இளையவல்லி</string>
+    <string name="string_sec" translatable="false">ஸ்ரீ நிவாஸ  பூவராஹாசார்யர் ஸ்வாமியின் திருக்குமாரர்</string>
+
+
+    <string name="string_register" translatable="false">Register</string>
+
+    <string name="string_register1" translatable="false">பதிவு செய்ய!!!</string>
+
+    <string name="string_home1" translatable="false">Listpage</string>
+
+    <string name="string_home" translatable="false">முகப்பு பக்கம்</string>
+
+    <string name="string_reg" translatable="false">பதிவு செய்</string>
+    <string name="string_camara" translatable="false">புகைப்படம்</string>
+
+    <!-- Create page -->
+
+    <string name="string_intr">Registration Form</string>
+
+    <string name="string_name1" translatable="false">இயற்பெயர்</string>
+
+
+    <string name="string_name" translatable="false">பெயர்</string>
+    <string name="string_aachariyar_name" translatable="false">ஆச்சாரியார் நாமகரணம்</string>
+        <string name="string_age" translatable="false">வயது</string>
+    <string name="string_nativeplace" translatable="false">பிறந்த ஊர்</string>
+    <string name="string_occupation" translatable="false">தொழில்</string>
+    <string name="string_mobileno" translatable="false">செல் நம்பர்</string>
+
+    <string name="string_dob" translatable="false">பிறந்த தேதி</string>
+    <string name="string_star" translatable="false">நட்சத்திரம்</string>
+    <string name="string_rasi" translatable="false">ராசி</string>
+    <string name="string_kothiram" translatable="false">கோத்திரம்</string>
+    <string name="string_age1" translatable="false">இன்றைய வயது</string>
+    <string name="string_adiyendob" translatable="false">பஞ்ச ஸம்ஸ்காரம் தேதி</string>
+    <string name="string_adiyenname" translatable="false">நாமகரணம்</string>
+
+    <string name="string_family">குடும்ப விபரம்</string>
+    <string name="string_wife">பாரியாள்</string>
+    <string name="string_father">தகப்பனார்</string>
+    <string name="string_mother">தாயார்</string>
+    <string name="string_sons">புத்திரர்கள்</string>
+    <string name="string_daugher">புத்திரீகள்</string>
+    <string name="string_family_age">வயது</string>
+
+
+    <string name="string_temporary_address">தற்போதைய முகவரி</string>
+    <string name="string_permanent_address">நிரந்தர முகவரி</string>
+    <string name="string_door_no">கதவு எண்</string>
+    <string name="string_street_name">தெரு பெயர்</string>
+    <string name="string_place">ஊர் பெயர்</string>
+    <string name="string_dist">மாவட்டம்</string>
+    <string name="string_state">மாநிலம்</string>
+
+
+    <!--- ID Card -->
+
+    <string name="string_thaniyan_id" translatable="false">நம ஸ்ரீசைலநாதாய குந்தீநகர ஜந்மநே ப்ரஸாதலப்தபரமப்ராப்ய கைங்கர்யசாலிநே</string>
+    <string name="string_swamy_id" translatable="false">திருவாய் மொழிப்பிள்ளை சுவாமி</string>
+    <string name="string_swamy_adiyen" translatable="false">திருமாளிகை சிஷ்யாள்</string>
+
+    <string name="string_if_found" translatable="false">If you found this card, please return to above address.</string>
+
+   <string name="string_reg_number" translatable="false">பதிவு எண்</string>
+
+    <string name="string_same_as" translatable="false">நிரந்தரம் (ம) தற்போதைய முகவரி ஒன்று என்றால் இதை தேர்ந்தெடுக்கவும்</string>
+
+
+
+
+
+    <string name="string_login" translatable="false">Login</string>
+    <string name="image" translatable="false">image</string>
+
+    <string name="about">About</string>
+    <string name="demo_name">Profile</string>
+
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/simpleImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/front_page" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/string_intr"
+            android:textAppearance="@android:style/TextAppearance.Medium.Inverse"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <include
+            android:id="@+id/first"
+            layout="@layout/create_layout" />
+
+        <include
+            android:id="@+id/second"
+            layout="@layout/create_layout" />
+
+        <include
+            android:id="@+id/third"
+            layout="@layout/create_layout" />
+
+        <include
+            android:id="@+id/four"
+            layout="@layout/create_layout" />
+
+        <include
+            android:id="@+id/five"
+            layout="@layout/create_layout" />
+
+        <include
+            android:id="@+id/six"
+            layout="@layout/create_layout" />
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corners"
+                android:padding="10dp"
+                android:text="@string/string_register"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alwar.elayavalli">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:name=".TempleApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <provider
+            android:name=".TempleFileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
+        <activity android:name="com.alwar.elayavalli.Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.alwar.elayavalli.Activities.HomeActivity" />
+
+
+        <activity
+            android:name="com.alwar.elayavalli.Activities.ProfileActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity android:name="com.alwar.elayavalli.Activities.ListActivity" />
+
+        <activity android:name="com.alwar.elayavalli.Activities.ViewPhotoActivity" />
+
+        <activity
+            android:name="com.alwar.elayavalli.Activities.ViewIDCardActivity"
+            android:screenOrientation="landscape" />
+
+
+    </application>
+
+</manifest>
