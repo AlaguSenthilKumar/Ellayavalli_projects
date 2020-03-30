@@ -34,9 +34,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.alwar.elayavalli.Activities.HomeActivity" />
-
-
         <activity
             android:name="com.alwar.elayavalli.Activities.ProfileActivity"
             android:windowSoftInputMode="stateHidden" />
@@ -45,9 +42,9 @@
 
         <activity android:name="com.alwar.elayavalli.Activities.ViewPhotoActivity" />
 
-        <activity
+       <!-- <activity
             android:name="com.alwar.elayavalli.Activities.ViewIDCardActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="landscape" />-->
 
 
     </application>
