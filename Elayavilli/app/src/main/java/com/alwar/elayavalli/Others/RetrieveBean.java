@@ -8,7 +8,7 @@ import io.realm.annotations.PrimaryKey;
 public class RetrieveBean extends RealmObject implements Serializable {
 
     private String adiyenNameStr, aachariyarNameStr, adiyenAgeStr, nativePlaceStr,
-            jobStr, mobileNoStr;
+            jobStr, mobileNoStr, emailIDStr;
 
 
     @PrimaryKey
@@ -60,6 +60,14 @@ public class RetrieveBean extends RealmObject implements Serializable {
 
     public void setMobileNoStr(String mobileNoStr) {
         this.mobileNoStr = mobileNoStr;
+    }
+
+    public String getEmailIDStr() {
+        return emailIDStr;
+    }
+
+    public void setEmailIDStr(String emailIDStr) {
+        this.emailIDStr = emailIDStr;
     }
 
     public String getProfileId() {

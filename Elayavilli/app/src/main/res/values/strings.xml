@@ -42,12 +42,12 @@
     <string name="string_name1" translatable="false">இயற்பெயர்</string>
 
 
-    <string name="string_name" translatable="false">பெயர்</string>
-    <string name="string_aachariyar_name" translatable="false">ஆச்சாரியார் நாமகரணம்</string>
-        <string name="string_age" translatable="false">வயது</string>
-    <string name="string_nativeplace" translatable="false">பிறந்த ஊர்</string>
-    <string name="string_occupation" translatable="false">தொழில்</string>
-    <string name="string_mobileno" translatable="false">செல் நம்பர்</string>
+    <string name="string_name" translatable="false">பெயர்: (Name)</string>
+    <string name="string_aachariyar_name" translatable="false">ஆச்சாரியான் திருநாமம்: (Aachariyar Name)</string>
+        <string name="string_age" translatable="false">வயது: (Age)</string>
+    <string name="string_nativeplace" translatable="false">ஊர்: (Location)</string>
+    <string name="string_occupation" translatable="false">தொழில்: (Occupation)</string>
+    <string name="string_mobileno" translatable="false">செல் நம்பர்: (Mobile No)</string>
 
     <string name="string_dob" translatable="false">பிறந்த தேதி</string>
     <string name="string_star" translatable="false">நட்சத்திரம்</string>

@@ -25,12 +25,13 @@ import com.alwar.elayavalli.RealmController;
 
 
 public class ProfileActivity extends AppCompatActivity {
+
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
 
     }
 
-    RealmController realmController;
+  //  RealmController realmController;
     Context context;
     boolean isSuccess;
 
@@ -48,7 +49,7 @@ public class ProfileActivity extends AppCompatActivity {
             textView.setText(R.string.app_name);
         }
 
-        realmController = RealmController.with();
+       // realmController = RealmController.with();
 
         Button btnSubmit = findViewById(R.id.btn_submit);
 
@@ -82,15 +83,16 @@ public class ProfileActivity extends AppCompatActivity {
 
     private void create() {
         if (retriveData() != null) {
-            String profileId = realmController.insertProfileDetail(retriveData());
-            if (profileId != null) {
-                Constants.insertInBuildImage(realmController, profileId);
-                updateDataInFirebase(profileId);
-                onBackPressed();
-            } else {
+          //  String profileId = realmController.insertProfileDetail(retriveData());
+           // if (profileId != null) {
+             //   Constants.insertInBuildImage(realmController, profileId);
+               // updateDataInFirebase(profileId);
+            //    onBackPressed();
+            }
+            else {
                 Toast.makeText(getApplicationContext(), "Failure", Toast.LENGTH_LONG).show();
             }
-        }
+       // }
     }
 
     private void initUI() {
@@ -133,6 +135,10 @@ public class ProfileActivity extends AppCompatActivity {
         etMobileNo.setInputType(InputType.TYPE_CLASS_PHONE);
         mobileNo.setText(R.string.string_mobileno);
 
+        LinearLayout llaySeven = findViewById(R.id.seven);
+        TextView tvEmailId = llaySeven.findViewById(R.id.tv_name);
+        tvEmailId.setText("Email ID:");
+
 
     }
 
@@ -149,7 +155,7 @@ public class ProfileActivity extends AppCompatActivity {
         isSuccess = true;
 
         String adiyenNameStr, aachariyarNameStr, adiyenAgeStr, nativePlaceStr,
-                jobStr, mobileNoStr;
+                jobStr, mobileNoStr, emailIDStr;
 
 
         RetrieveBean retrieveBean = new RetrieveBean();
@@ -189,6 +195,12 @@ public class ProfileActivity extends AppCompatActivity {
         mobileNoStr = etMobileNo.getText().toString().trim();
         validation(llaySix);
         retrieveBean.setMobileNoStr(mobileNoStr);
+
+        LinearLayout llaySeven = findViewById(R.id.seven);
+        EditText etEmailID = llaySeven.findViewById(R.id.et_username);
+        emailIDStr = etEmailID.getText().toString().trim();
+        validation(llaySeven);
+        retrieveBean.setEmailIDStr(  emailIDStr);
 
 
         if (isSuccess) {

@@ -55,6 +55,9 @@
             android:id="@+id/six"
             layout="@layout/create_layout" />
 
+        <include
+            android:id="@+id/seven"
+            layout="@layout/create_layout" />
 
             <Button
                 android:id="@+id/btn_submit"
