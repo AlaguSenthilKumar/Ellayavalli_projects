@@ -47,7 +47,7 @@
         <string name="string_age" translatable="false">வயது: (Age)</string>
     <string name="string_nativeplace" translatable="false">ஊர்: (Location)</string>
     <string name="string_occupation" translatable="false">தொழில்: (Occupation)</string>
-    <string name="string_mobileno" translatable="false">செல் நம்பர்: (Mobile No)</string>
+    <string name="string_mobileno" translatable="false">செல் நம்பர்: (Whatsapp No)</string>
 
     <string name="string_dob" translatable="false">பிறந்த தேதி</string>
     <string name="string_star" translatable="false">நட்சத்திரம்</string>
