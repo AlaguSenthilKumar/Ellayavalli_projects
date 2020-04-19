@@ -10,13 +10,13 @@
     <string name="string_pasuram_four" translatable="false">ஒரு பார் தனில் ஒக்கு மூர்</string>
 
 
-    <string name="string_first" translatable="false">ஸ்ரீ.உ.வே.இளையவில்லி </string>
+    <string name="string_first" translatable="false">ஸ்ரீ.உ.வே.இளையவில்லி ஸ்ரீ ராம் ஸ்வாமி</string>
+
+    <string name="string_second" translatable="false">ஆழ்வார் திருநகரி-திருவாய்மொழி  காலஷேபம்  </string>
 
     <string name="string_first1" translatable="false">Sri.U.Ve.Elayavilli Sriram Swamy</string>
 
-    <string name="string_second" translatable="false">ஸ்ரீ ராம் ஸ்வாமி பகவத் விஷயம் </string>
-
-    <string name="string_second1" translatable="false">Azhwar Tirunagari - Tiruvaimozhi Kalakshebam</string>
+    <string name="string_second1" translatable="false">Azhwar Tirunagari-Tiruvaimozhi Kalakshebam</string>
 
     <string name="string_address" translatable="false">எண்.6,உடையவர் சன்னதித்தெரு,இராமானுஞ்ஜ சதுர்வேதி மங்களம்,ஆழ்வார் திருநகரி,தூத்துக்குடி மாவட்டம்.</string>
 
@@ -44,7 +44,7 @@
     <string name="string_permanent_address">நிரந்தர முகவரி</string>
 
     <string name="string_name" translatable="false">பெயர்: (Name)</string>
-    <string name="string_aachariyar_name" translatable="false">ஆச்சாரியன் திருநாமம்: (Aacharyan Tirunamam)</string>
+    <string name="string_aachariyar_name" translatable="false">ஆசாரியன் திருநாமம்: (Aacharyan Tirunamam)</string>
         <string name="string_age" translatable="false">வயது: (Age)</string>
     <string name="string_nativeplace" translatable="false">ஊர்: (Location)</string>
     <string name="string_occupation" translatable="false">தொழில்: (Occupation)</string>
