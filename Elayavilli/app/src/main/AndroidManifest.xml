@@ -42,11 +42,6 @@
 
         <activity android:name="com.alwar.elayavalli.Activities.ViewPhotoActivity" />
 
-       <!-- <activity
-            android:name="com.alwar.elayavalli.Activities.ViewIDCardActivity"
-            android:screenOrientation="landscape" />-->
-
-
     </application>
 
 </manifest>
