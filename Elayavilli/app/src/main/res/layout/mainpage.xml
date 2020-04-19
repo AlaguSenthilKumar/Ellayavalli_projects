@@ -14,7 +14,7 @@
             <LinearLayout
                 android:id="@+id/ll_data"
                 android:layout_width="match_parent"
-                android:layout_height="230dp"
+                android:layout_height="270dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -51,9 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
+                    android:layout_margin="3dp"
                     android:gravity="center"
                     android:text="@string/string_first"
                     android:textSize="16dp"
@@ -63,12 +61,30 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:layout_margin="3dp"
+                    android:text="@string/string_first1"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:gravity="center"
                     android:text="@string/string_second"
                     android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:text="@string/string_second1"
+                    android:textSize="14dp"
                     android:textStyle="bold" />
 
 

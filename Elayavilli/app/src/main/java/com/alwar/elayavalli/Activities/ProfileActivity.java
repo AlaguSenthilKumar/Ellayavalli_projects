@@ -60,9 +60,7 @@ public class ProfileActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         MenuItem item = menu.findItem(R.id.create);
-        MenuItem cameraItem = menu.findItem(R.id.camera);
         item.setVisible(true);
-        cameraItem.setVisible(true);
 
         return true;
     }
