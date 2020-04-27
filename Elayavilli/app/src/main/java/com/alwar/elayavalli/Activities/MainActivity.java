@@ -1,6 +1,8 @@
 package com.alwar.elayavalli.Activities;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -9,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.alwar.elayavalli.Constants;
 import com.alwar.elayavalli.FireBaseController;
 import com.alwar.elayavalli.Others.RetrieveBean;
 import com.alwar.elayavalli.Others.Utility;
@@ -18,7 +21,7 @@ import com.alwar.elayavalli.RealmController;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-   // FireBaseController fireBaseController;
+   FireBaseController fireBaseController;
 
 
     @Override
@@ -35,23 +38,36 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(R.string.app_name);
         }
 
-        //fireBaseController = new FireBaseController();
-        //fireBaseController.setFireBaseReference();
+        fireBaseController = new FireBaseController();
+        fireBaseController.setFireBaseReference();
 
-       // if (Utility.checkPermission(this))
-          //fireBaseController.syncUserDetails();
+       if (Utility.checkPermission(this))
+       fireBaseController.syncUserDetails();
 
         //To Add Realm Data into Firebase without image.
-        /*RealmController reallmController = new RealmController();
+       RealmController reallmController = new RealmController();
         List<RetrieveBean> allData =  reallmController.getAllProfile();
         for (RetrieveBean retrieveBean : allData) {
             fireBaseController.addNewData(retrieveBean.profileId, retrieveBean);
         }
-*/
+
 
         Button btnRegister = findViewById(R.id.btn_register);
         Button btnList = findViewById(R.id.btn_list);
+        btnList.setVisibility(View.VISIBLE);
 
+        /*SharedPreferences sharedPref = getSharedPreferences("application", Context.MODE_PRIVATE);
+        if(sharedPref != null) {
+            String phoneNumber = sharedPref.getString("phoneNumber",null);
+            if(phoneNumber != null && phoneNumber.equals(Constants.phoneNumber)) {
+                btnList.setVisibility(View.VISIBLE);
+            }
+        } else {
+            Intent intent = new Intent(MainActivity.this, Activation.class);
+            MainActivity.this.finish();
+            startActivity(intent);
+        }
+*/
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override

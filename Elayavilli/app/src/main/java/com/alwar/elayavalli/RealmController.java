@@ -31,20 +31,20 @@ public class  RealmController {
 
         int totalData = realm.where(RetrieveBean.class).findAll().size();
 
-//        if (totalData != 0) {
-//            RetrieveBean retrieveBeanModel = realm.where(RetrieveBean.class).sort(Constants.PROFILE_ID, Sort.DESCENDING).findFirst();
-//            if (retrieveBeanModel != null) {
-//                profileId = retrieveBeanModel.profileId;
-//            }
-//        }
+       if (totalData != 0) {
+          RetrieveBean retrieveBeanModel = realm.where(RetrieveBean.class).sort(Constants.PROFILE_ID, Sort.DESCENDING).findFirst();
+            if (retrieveBeanModel != null) {
+                profileId = retrieveBeanModel.profileId;
+            }
+        }
 
-//        if (profileId != null) {
-//            profileId = retrieveBean.getAdiyenDOBStr().replaceAll("/", "-") + "_00"+ (lastValue + 1);
-//            retrieveBean.profileId = profileId;
-//        } else {
-          //  profileId = retrieveBean.getAdiyenDOBStr().replaceAll("/", "-")  + "_00"+ (totalData + 1);
+        //if (profileId != null) {
+          //  profileId = retrieveBean.getMobileNoStr().replaceAll("/", "-") + "_00"+ (lastValue + 1);
+            // retrieveBean.profileId = profileId;
+        //} else {
+          profileId = retrieveBean.getMobileNoStr().replaceAll("/", "-")  + "_00"+ (totalData + 1);
             retrieveBean.profileId = profileId;
-//        }
+      // }
 
         realm.beginTransaction();
         realm.insert(retrieveBean);

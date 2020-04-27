@@ -31,7 +31,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     }
 
-  //  RealmController realmController;
+    RealmController realmController;
     Context context;
     boolean isSuccess;
 
@@ -49,7 +49,7 @@ public class ProfileActivity extends AppCompatActivity {
             textView.setText(R.string.app_name);
         }
 
-       // realmController = RealmController.with();
+       realmController = RealmController.with();
 
         Button btnSubmit = findViewById(R.id.btn_submit);
 
@@ -81,27 +81,27 @@ public class ProfileActivity extends AppCompatActivity {
 
     private void create() {
         if (retriveData() != null) {
-          //  String profileId = realmController.insertProfileDetail(retriveData());
-           // if (profileId != null) {
-             //   Constants.insertInBuildImage(realmController, profileId);
-               // updateDataInFirebase(profileId);
-            //    onBackPressed();
+           String profileId = realmController.insertProfileDetail(retriveData());
+           if (profileId != null) {
+          //  Constants.insertInBuildImage(realmController, profileId);
+           // updateDataInFirebase(profileId);
+            onBackPressed();
             }
             else {
                 Toast.makeText(getApplicationContext(), "Failure", Toast.LENGTH_LONG).show();
             }
-       // }
+        }
     }
 
     private void initUI() {
         renderCreatePage();
     }
 
-    private void updateDataInFirebase(String profileId) {
+   // private void updateDataInFirebase(String profileId) {
   //      FireBaseController fireBaseController = new FireBaseController();
     //    fireBaseController.setFireBaseReference();
       //  fireBaseController.addNewData(profileId, realmController.getAllProfileById(profileId));
-    }
+    //}
 
     public void renderCreatePage() {
 

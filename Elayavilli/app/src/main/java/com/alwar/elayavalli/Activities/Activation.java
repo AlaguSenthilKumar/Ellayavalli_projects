@@ -1,5 +1,8 @@
 package com.alwar.elayavalli.Activities;
 
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -39,6 +42,15 @@ public class Activation extends AppCompatActivity {
             public void onClick(View v) {
 
                 String phNumber = etPhNumber.getText().toString().trim();
+                    SharedPreferences sharedPref = getSharedPreferences("application", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPref.edit();
+                    editor.putString("phoneNumber", phNumber);
+                    editor.apply();
+
+                    Intent intent = new Intent(Activation.this, MainActivity.class);
+                    Activation.this.finish();
+                    startActivity(intent);
+
             }
         });
 

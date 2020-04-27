@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "658456621763",
-    "firebase_url": "https://thiruvaimozhipillai.firebaseio.com",
-    "project_id": "thiruvaimozhipillai",
-    "storage_bucket": "thiruvaimozhipillai.appspot.com"
+    "project_number": "769810015434",
+    "firebase_url": "https://elayavilli-d2348.firebaseio.com",
+    "project_id": "elayavilli-d2348",
+    "storage_bucket": "elayavilli-d2348.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:658456621763:android:724f9e396f007e024d6876",
+        "mobilesdk_app_id": "1:769810015434:android:6b4e9421312c0d5c8c8033",
         "android_client_info": {
-          "package_name": "com.alwar.thiruvaimozhipillai"
+          "package_name": "com.alwar.elayavalli"
         }
       },
       "oauth_client": [
         {
-          "client_id": "658456621763-eprsul5middp63vd13n5l82uiue5lkkm.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.alwar.thiruvaimozhipillai",
-            "certificate_hash": "1f92e2056fbbdd5c67abf95d516418f222c7b913"
-          }
-        },
-        {
-          "client_id": "658456621763-9b0df2s47eia79nk58ffg0ror54hn40n.apps.googleusercontent.com",
+          "client_id": "769810015434-bf9deof3pq5lmkqsd6g7nalr133vc84q.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC9o3w47YcHCF15X7ZY1N8x1amUkjuKEWc"
+          "current_key": "AIzaSyCsH_FF_hQUD7y0eZ49mrQI835J7HXAXpU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "658456621763-9b0df2s47eia79nk58ffg0ror54hn40n.apps.googleusercontent.com",
+              "client_id": "769810015434-bf9deof3pq5lmkqsd6g7nalr133vc84q.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
