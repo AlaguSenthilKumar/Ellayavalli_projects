@@ -56,18 +56,16 @@ public class MainActivity extends AppCompatActivity {
         Button btnList = findViewById(R.id.btn_list);
         btnList.setVisibility(View.VISIBLE);
 
-        /*SharedPreferences sharedPref = getSharedPreferences("application", Context.MODE_PRIVATE);
-        if(sharedPref != null) {
+            SharedPreferences sharedPref = getSharedPreferences("application", Context.MODE_PRIVATE);
             String phoneNumber = sharedPref.getString("phoneNumber",null);
             if(phoneNumber != null && phoneNumber.equals(Constants.phoneNumber)) {
                 btnList.setVisibility(View.VISIBLE);
-            }
         } else {
             Intent intent = new Intent(MainActivity.this, Activation.class);
-            MainActivity.this.finish();
             startActivity(intent);
-        }
-*/
+            MainActivity.this.finish();
+            }
+
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override

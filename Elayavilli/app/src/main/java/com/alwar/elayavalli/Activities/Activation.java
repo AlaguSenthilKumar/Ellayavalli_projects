@@ -41,19 +41,21 @@ public class Activation extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String phNumber = etPhNumber.getText().toString().trim();
+                    String phNumber = etPhNumber.getText().toString().trim();
                     SharedPreferences sharedPref = getSharedPreferences("application", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor = sharedPref.edit();
                     editor.putString("phoneNumber", phNumber);
                     editor.apply();
-
-                    Intent intent = new Intent(Activation.this, MainActivity.class);
-                    Activation.this.finish();
-                    startActivity(intent);
-
-            }
+                    editor.commit();
+                    callingIntent();
+        }
         });
+    }
 
+    private void callingIntent() {
+        Intent intent = new Intent(Activation.this, MainActivity.class);
+        startActivity(intent);
+        Activation.this.finish();
 
     }
 }

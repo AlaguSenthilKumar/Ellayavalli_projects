@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.alwar.elayavalli.Constants;
+import com.alwar.elayavalli.FireBaseController;
 import com.alwar.elayavalli.Others.AppCommUtils;
 import com.alwar.elayavalli.Others.RetrieveBean;
 import com.alwar.elayavalli.R;
@@ -53,6 +54,13 @@ public class ProfileActivity extends AppCompatActivity {
 
         Button btnSubmit = findViewById(R.id.btn_submit);
 
+        btnSubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                create();
+            }
+        });
+
     }
 
 
@@ -83,8 +91,8 @@ public class ProfileActivity extends AppCompatActivity {
         if (retriveData() != null) {
            String profileId = realmController.insertProfileDetail(retriveData());
            if (profileId != null) {
-          //  Constants.insertInBuildImage(realmController, profileId);
-           // updateDataInFirebase(profileId);
+            //Constants.insertInBuildImage(realmController, profileId);
+            updateDataInFirebase(profileId);
             onBackPressed();
             }
             else {
@@ -97,11 +105,11 @@ public class ProfileActivity extends AppCompatActivity {
         renderCreatePage();
     }
 
-   // private void updateDataInFirebase(String profileId) {
-  //      FireBaseController fireBaseController = new FireBaseController();
-    //    fireBaseController.setFireBaseReference();
-      //  fireBaseController.addNewData(profileId, realmController.getAllProfileById(profileId));
-    //}
+     private void updateDataInFirebase(String profileId) {
+        FireBaseController fireBaseController = new FireBaseController();
+        fireBaseController.setFireBaseReference();
+        fireBaseController.addNewData(profileId, realmController.getAllProfileById(profileId));
+    }
 
     public void renderCreatePage() {
 

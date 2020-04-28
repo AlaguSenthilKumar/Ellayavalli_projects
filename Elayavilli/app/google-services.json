@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "769810015434-oo97us4djnfefjr2mlno599800tql3c8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alwar.elayavalli",
+            "certificate_hash": "bc2c02bfb7a0ce318b4793aa775f22a4ef2f3e6c"
+          }
+        },
+        {
           "client_id": "769810015434-bf9deof3pq5lmkqsd6g7nalr133vc84q.apps.googleusercontent.com",
           "client_type": 3
         }

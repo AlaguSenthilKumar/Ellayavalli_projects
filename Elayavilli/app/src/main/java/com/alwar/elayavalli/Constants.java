@@ -24,7 +24,9 @@ public class Constants {
     public static final String TYPE = "type";
     public static final String PHOTO = "photo";
     public static final String ADDRESS = "address";
-    public static final String phoneNumber = "9443695147";
+    public static final String phoneNumber1 = "9443695147";
+    public static final String phoneNumber = "12";
+
 
     public static GradientDrawable getGradientDrawable(int startColor, int endColor, GradientDrawable.Orientation orientation, float radius) {
         GradientDrawable gd = new GradientDrawable(orientation, new int[] {Color.parseColor("#"+Integer.toHexString(startColor)), Color.parseColor("#"+Integer.toHexString(endColor))});
