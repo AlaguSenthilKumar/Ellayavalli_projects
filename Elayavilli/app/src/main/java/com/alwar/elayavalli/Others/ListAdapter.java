@@ -21,7 +21,7 @@ public class ListAdapter extends ArrayAdapter<RetrieveBean> implements View.OnCl
 
         private static class ViewHolder {
             TextView tvName;
-            TextView tvAdiyenDOB;
+            TextView tvPlace;
             TextView tvMobileNumber;
         }
 
@@ -54,7 +54,7 @@ public class ListAdapter extends ArrayAdapter<RetrieveBean> implements View.OnCl
                 LayoutInflater inflater = LayoutInflater.from(getContext());
                 convertView = inflater.inflate(R.layout.row_item, parent, false);
                 viewHolder.tvName = (TextView) convertView.findViewById(R.id.tv_name);
-                viewHolder.tvAdiyenDOB = (TextView) convertView.findViewById(R.id.tv_adiyendob);
+                viewHolder.tvPlace = (TextView) convertView.findViewById(R.id.tv_place);
                 viewHolder.tvMobileNumber = (TextView) convertView.findViewById(R.id.tv_mobileno);
 
                 view = convertView;
@@ -65,14 +65,11 @@ public class ListAdapter extends ArrayAdapter<RetrieveBean> implements View.OnCl
                 view = convertView;
             }
 
-
-
-
             if(listModel.getAdiyenNameStr() != null) {
                 viewHolder.tvName.setText(listModel.getAdiyenNameStr());
             }
 
-           // viewHolder.tvAdiyenDOB.setText(listModel.getAdiyenDOBStr());
+            viewHolder.tvPlace.setText(listModel.getNativePlaceStr());
             viewHolder.tvMobileNumber.setText(listModel.getMobileNoStr());
             return convertView;
         }

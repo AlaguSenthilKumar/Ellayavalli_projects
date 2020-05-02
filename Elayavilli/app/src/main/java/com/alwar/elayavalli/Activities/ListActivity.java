@@ -172,7 +172,7 @@ public class ListActivity extends AppCompatActivity {
 
     private void alertPopup(final RetrieveBean listModel) {
 
-        final String [] listItems = {/*"View Photo", "View ID Card", */ "View Address"};
+        final String [] listItems = {"View Details"};
 
         AlertDialog.Builder builder = new AlertDialog.Builder(ListActivity.this);
         builder.setTitle("Select");
@@ -192,19 +192,8 @@ public class ListActivity extends AppCompatActivity {
     private void alertMessage(RetrieveBean listModel, String listItem) {
 
         if(listItem != null && !"".equals(listItem)) {
-            /*if("View Photo".equals(listItem)) {
-                Intent intent = new Intent(ListActivity.this, ViewPhotoActivity.class);
-                intent.putExtra(Constants.Profile, listModel);
-                intent.putExtra(Constants.TYPE, Constants.PHOTO);
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(intent);
-            }*else if("View ID Card".equals(listItem)) {
-                Intent intent = new Intent(ListActivity.this, ViewIDCardActivity.class);
-                intent.putExtra(Constants.Profile, listModel);
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(intent);
-            }else */if("View Address".equals(listItem)) {
-                Intent intent = new Intent(ListActivity.this, ViewPhotoActivity.class);
+          if("View Details".equals(listItem)) {
+                Intent intent = new Intent(ListActivity.this, ViewDetailsActivity.class);
                 intent.putExtra(Constants.Profile, listModel);
                 intent.putExtra(Constants.TYPE, Constants.ADDRESS);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

@@ -34,14 +34,13 @@
 
     <string name="string_submit" translatable="false">Submit</string>
 
-    <string name="string_activate" translatable="false">Enter your phone number</string>
+    <string name="string_activate" translatable="false">Enter phone number for verification</string>
     <!-- Create page -->
 
     <string name="string_intr">Registration Form</string>
 
 
-    <string name="string_temporary_address">தற்போதைய முகவரி</string>
-    <string name="string_permanent_address">நிரந்தர முகவரி</string>
+    <string name="string_details">Details</string>
 
     <string name="string_name" translatable="false">பெயர்: (Name)</string>
     <string name="string_aachariyar_name" translatable="false">ஆசாரியன் திருநாமம்: (Aacharyan Tirunamam)</string>

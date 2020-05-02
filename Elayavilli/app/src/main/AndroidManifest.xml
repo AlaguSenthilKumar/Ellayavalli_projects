@@ -40,7 +40,7 @@
 
         <activity android:name="com.alwar.elayavalli.Activities.ListActivity" />
 
-        <activity android:name="com.alwar.elayavalli.Activities.ViewPhotoActivity" />
+        <activity android:name="com.alwar.elayavalli.Activities.ViewDetailsActivity" />
 
         <activity android:name="com.alwar.elayavalli.Activities.Activation" />
     </application>
