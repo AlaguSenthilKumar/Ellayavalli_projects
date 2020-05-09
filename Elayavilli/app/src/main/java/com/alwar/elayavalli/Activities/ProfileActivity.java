@@ -205,8 +205,7 @@ public class ProfileActivity extends AppCompatActivity {
         LinearLayout llaySeven = findViewById(R.id.seven);
         EditText etEmailID = llaySeven.findViewById(R.id.et_username);
         emailIDStr = etEmailID.getText().toString().trim();
-        validation(llaySeven);
-        retrieveBean.setEmailIDStr(  emailIDStr);
+        retrieveBean.setEmailIDStr(emailIDStr);
 
 
         if (isSuccess) {

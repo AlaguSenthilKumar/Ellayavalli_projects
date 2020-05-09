@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name" translatable="false">இளையவில்லி</string>
 
-    <string name="string_pasuram_first" translatable="false">உண்டோ  வைகாசி  விசாகத்திக்கு ஒப்பொருநாள்</string>
+    <string name="string_pasuram_first" translatable="false">உண்டோ வைகாசி விசாகத்துக்கு ஒப்பொரு நாள்?</string>
 
-    <string name="string_pasuram_second" translatable="false">உண்டோ சடகோபருக்கு ஒப்போருவர் - உண்டோ</string>
+    <string name="string_pasuram_second" translatable="false">உண்டோ சடகோபர்க்கு ஒப்பொருவர்? - உண்டோ</string>
 
-    <string name="string_pasuram_third" translatable="false">திருவாய்மொழிக்கு ஒப்பு தென்குருகைக்குண்டோ</string>
+    <string name="string_pasuram_third" translatable="false">திருவாய்மொழிக்கு ஒப்பு தென் குருகைக்கு உண்டோ</string>
 
-    <string name="string_pasuram_four" translatable="false">ஒரு பார் தனில் ஒக்கு மூர்</string>
+    <string name="string_pasuram_four" translatable="false">ஒரு பார் தனில் ஒக்கும் ஊர்</string>
 
 
     <string name="string_first" translatable="false">ஸ்ரீ.உ.வே.இளையவில்லி ஸ்ரீ ராம் ஸ்வாமி</string>

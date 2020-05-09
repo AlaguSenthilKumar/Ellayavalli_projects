@@ -33,10 +33,10 @@ public class ViewDetailsActivity extends AppCompatActivity {
                 String detailsStr =
                                     retrieveBean.getAdiyenNameStr() + "\n" +
                                     retrieveBean.getAachariyarNameStr() + "\n" +
+                                    retrieveBean.getAdiyenAgeStr() + "\n" +
                                     retrieveBean.getNativePlaceStr() + "\n" +
                                     retrieveBean.getJobStr() + "\n" +
-                                    retrieveBean.getMobileNoStr() + "\n" +
-                                    retrieveBean.getEmailIDStr() + "\n";
+                                    retrieveBean.getMobileNoStr() + "\n";
 
 /*
             "Name               :" + retrieveBean.getAdiyenNameStr() + "\n" +
